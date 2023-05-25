@@ -1,0 +1,509 @@
+* {
+  font-family: "Gotham", sans-serif;
+}
+body {
+  background: #2c0f29;
+}
+.navRow {
+  padding: 0;
+}
+.navRow .navbar {
+  padding: 13.2px 14px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  padding: 0 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #c6aac6;
+}
+.navbar-brand {
+  width: 114px;
+  height: 35px;
+}
+.navbar-light .navbar-toggler {
+  color: #fff;
+}
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+.topIntroSection {
+  margin-top: 85px;
+}
+.introContent {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboveIntroTitle {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+.introContent h1,
+.introContent span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 54px;
+  color: #fff;
+}
+.introContent small {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #8f618f;
+}
+.whiteSignUpSection {
+  background: linear-gradient(
+    90deg,
+    #8e608e 28.16%,
+    #402640 67.82%,
+    #371a34 83.75%
+  );
+  padding: 50px 0;
+}
+.whiteSignUpContent h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.whiteSignUpContent p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0;
+}
+.signUpDiv {
+  display: flex;
+  margin: 20px 0;
+  width: 530px;
+  height: 64px;
+  position: relative;
+}
+.emailInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0px 0px 26px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border: 3px solid #c6aac6;
+  border-radius: 79px;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #431f43;
+}
+.emailInput::placeholder {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #431f43;
+}
+.signupBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  width: 180px;
+  height: auto;
+  background: #e01a59;
+  border-radius: 79px;
+  border: none;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+.signupBtn:hover {
+  box-shadow: 0 0 10px 0 #e01a59 inset, 0 0 10px 2px #e01a59;
+  border: 3px solid #e01a59;
+}
+.belowSignupFormNotice {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+.hashtagBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-basis: content;
+  padding: 2px 18px;
+  width: 146px;
+  height: 32px;
+  background: #c6aac6;
+  border-radius: 126px;
+}
+.hashtagBtn span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #8f618f;
+}
+.belowSignupFormNotice p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #c6aac6;
+  margin: 0;
+}
+.belowSignupFormNotice p span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+.topRightShape {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+.ironPDFForC {
+  padding: 60px 0;
+}
+.ironPDFForC h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  place-content: center;
+  margin: auto;
+}
+.ironPDFForC h1 img {
+  filter: drop-shadow(0px 10px 30px rgba(24, 24, 24, 0.2));
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: auto;
+  right: -48px;
+  bottom: -5px;
+}
+.ironPDFServicesRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+.ironPDFServicesRow span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+.ironPDFServicesRow span b {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.hLine {
+  background: #402640;
+  width: 1px;
+}
+.ironPDFDesc {
+  background: rgba(23, 6, 23, 0.3);
+  padding: 55px 0;
+  overflow: hidden;
+  position: relative;
+}
+.ironPDFDesc .container {
+  position: relative;
+  z-index: 1;
+}
+.ironPDFDesc p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.ironPDFDesc p b {
+  font-weight: 500;
+}
+.whySection {
+  background: #402640 67.82%;
+  padding: 100px 0;
+}
+.whySection h1,
+.whySection span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff;
+}
+.whySection span {
+  color: #c6aac6;
+}
+.whySection .whyBackBlur {
+  background: linear-gradient(122.46deg, #e01a59 -6.28%, #460a48 85.62%);
+  opacity: 0.5;
+  filter: blur(44.5px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.whySection img {
+  filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.15));
+}
+.imageSectionRow {
+  display: flex;
+}
+.whySection p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 22;
+  text-align: justify;
+}
+.descBack {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: linear-gradient(144.39deg, #e01a59 -32.66%, #460a48 71.03%);
+  opacity: 0.3;
+  filter: blur(117.5px);
+  z-index: 0;
+}
+.earlyAccessSection {
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+.earlyAccessSection .container {
+  position: relative;
+  z-index: 1;
+}
+.earlyAccessSection h1,
+.earlyAccessSection span,
+.signupSection h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.earlyAccessSection span,
+.signupSection h1 span {
+  color: #c6aac6;
+}
+.earlyAccessSection p {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: justify;
+}
+.servicesRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.servicesBtn {
+  gap: 30px;
+  height: 88px;
+  background: rgba(23, 6, 23, 0.8);
+  border: 3px solid #431f43;
+  border-radius: 122px;
+  display: flex;
+  place-items: center;
+  padding: 23px 30px;
+}
+.servicesBtn:hover {
+  box-shadow: 0 0 10px 0 #431f43 inset, 0 0 20px 2px #431f43;
+  border: 3px solid #431f43;
+}
+.servicesBtn .hashtagBtn.released {
+  background: #c6aac6;
+}
+.servicesBtn .hashtagBtn.released span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #331433;
+}
+.servicesBtn .hashtagBtn span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #c6aac6;
+}
+.servicesBtn .hashtagBtn {
+  background: #331433;
+}
+.btnTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.platformSvg {
+  width: 50%;
+}
+.signupSection {
+  background: rgba(23, 6, 23, 0.3);
+  padding: 55px 0;
+}
+.signupSection .signUpDiv {
+  margin: 30px auto 0 auto;
+}
+.modal-footer .signupBtn {
+  height: auto;
+}
+
+@media (min-width: 1585px) {
+  .topRightShape {
+    width: 785px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1585px) {
+  .topRightShape {
+    width: 50vw;
+  }
+}
+@media (max-width: 1200px) {
+  .topRightShape {
+    position: absolute;
+    right: 0;
+    top: -20%;
+    bottom: 0;
+    margin: auto;
+    width: 42%;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-brand {
+    height: auto;
+  }
+  .navbar-toggler {
+    padding-top: 1px;
+  }
+  .topRightShape {
+    display: none;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 0;
+    font-size: 13px;
+  }
+  .topIntroSection {
+    margin-top: 50px;
+  }
+  .signUpDiv {
+    width: 100%;
+  }
+  .belowSignupFormNotice {
+    align-items: center;
+    flex-direction: column;
+  }
+  .ironPDFServicesRow {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .imageSectionRow {
+    flex-direction: column;
+  }
+  .imageSectionRow .col-12 {
+    text-align: center;
+    padding: 0;
+  }
+  .servicesRow {
+    flex-direction: column;
+    gap: 20px;
+    place-items: center;
+  }
+  .servicesBtn {
+    place-content: center;
+    width: 60%;
+  }
+  .whiteSignUpContent {
+    text-align: center;
+  }
+  .introContent h1,
+  .introContent span {
+    font-size: 40px;
+  }
+  .ironPDFForC h1 img {
+    filter: drop-shadow(0px 10px 30px rgba(24, 24, 24, 0.2));
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: auto;
+    right: -60px;
+    bottom: -12px;
+  }
+  .ironPDFForC h1 {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .servicesBtn {
+    place-content: center;
+    width: 80%;
+  }
+  .ironPDFForC h1 img {
+    filter: drop-shadow(0px 10px 30px rgba(24, 24, 24, 0.2));
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: auto;
+    right: -60px;
+    bottom: -12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ironPDFForC {
+    overflow: hidden;
+  }
+  .servicesBtn {
+    width: 100%;
+  }
+}
